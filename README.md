@@ -3,7 +3,9 @@
 ## Homework
 * For Tues 
   * Lab: Namespace
-  
+* For Fri 6 Nov 2020
+  * Lab: Create a Class  
+  * Lab: Create an Extensible Super Class
 ## Class Notes
 * https://w3techs.com/
 * https://packagist.org/
@@ -21,7 +23,7 @@
 ```
 git clone <CLONE URL>
 ```
-  * Add your github username and email to the repository
+  * Add your github username and email to the repository under the `[user]` section
 ```
 git config --global --edit
 ```
