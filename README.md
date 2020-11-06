@@ -3,9 +3,14 @@
 ## Homework
 * For Tues 
   * Lab: Namespace
-* For Fri 6 Nov 2020
+* For Mon 9 Nov 2020
   * Lab: Create a Class  
-  * Lab: Create an Extensible Super Class
+  * Lab: Create an Extensible Super Class (eventually will be an Abstract class)
+  * Lab: Magic Methods
+  * Lab: Abstract Classes
+## TODO
+* RE: http://localhost:8888/#/2/38: why was a warning not issued for the override?
+
 ## Class Notes
 * https://w3techs.com/
 * https://packagist.org/
