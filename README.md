@@ -1,6 +1,9 @@
 # php-ii-nov-2020
 
 ## Homework
+* For Fri 13 Nov 2020
+  * Lab: Traits
+  * Review the OrderApp
 * For Wed 11 Nov 2020
   * Lab: Interfaces
   * Lab: Type Hinting
