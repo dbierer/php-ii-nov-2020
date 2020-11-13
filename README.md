@@ -1,7 +1,11 @@
 # php-ii-nov-2020
 
 ## Homework
-* For Fri 13 Nov 2020
+* For Sun 15 Nov 2020
+  * Lab: Prepared Statements
+  * Lab: Stored Procedure
+  * Lab: Transaction
+* For Thu 12 Nov 2020
   * Lab: Traits
   * Review the OrderApp
 * For Wed 11 Nov 2020
@@ -17,6 +21,8 @@
   * Lab: Abstract Classes
 ## TODO
 * RE: http://localhost:8888/#/2/38: why was a warning not issued for the override?
+* Find an example of using Doctrine
+* Get example of populating database from geonames.org project using prepared statements
 
 ## Class Notes
 * https://w3techs.com/
@@ -25,6 +31,8 @@
   * https://github.com/laminas/laminas-mvc-skeleton
   * First need to install Composer: https://getcomposer.org
   * Skeleton app installer: https://docs.laminas.dev/tutorials/getting-started/skeleton-application/
+* Doctrine Object Relational Mapping (ORM): https://www.doctrine-project.org/projects/orm.html
+
 ## Github Account
 * Creating a repository for class:
   * Login to your account
@@ -68,3 +76,13 @@ grep -rn DIR_PATH -e " extends "
   
 ## Exceptions
 * https://www.php.net/manual/en/class.exception.php
+
+## PDO
+* To get the "dsn" syntax go to the specific driver class (https://www.php.net/manual/en/pdo.drivers.php)
+  * E.g. for MySQL: https://www.php.net/manual/en/ref.pdo-mysql.connection.php
+  * E.g. for DB2  : https://www.php.net/manual/en/ref.pdo-ibm.connection.php
+
+## Errata
+* http://localhost:8888/#/4/19: "Currency Value Object" :
+  *  `$this->amount = $symbol;`
+  * s/be  `$this->symbol = $symbol;`
