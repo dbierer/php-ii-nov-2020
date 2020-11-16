@@ -1,6 +1,8 @@
 # php-ii-nov-2020
 
 ## Homework
+* For Tue 17 Nov 2020
+  * Lab: Validate an Email Address
 * For Sun 15 Nov 2020
   * Lab: Prepared Statements
   * Lab: Stored Procedure
@@ -20,10 +22,11 @@
   * Lab: Magic Methods
   * Lab: Abstract Classes
 ## TODO
-* RE: http://localhost:8888/#/2/38: why was a warning not issued for the override?
 * Find an example of using Doctrine
+  * https://github.com/phpcl/phpcl_jumpstart_doctrine
 * Get example of populating database from geonames.org project using prepared statements
-
+  * `pdo_prepare_example.php`
+* Debug code on slide for e-tag example
 ## Class Notes
 * https://w3techs.com/
 * https://packagist.org/
@@ -32,6 +35,12 @@
   * First need to install Composer: https://getcomposer.org
   * Skeleton app installer: https://docs.laminas.dev/tutorials/getting-started/skeleton-application/
 * Doctrine Object Relational Mapping (ORM): https://www.doctrine-project.org/projects/orm.html
+* All HTTP headers end up in `$_SERVER` as follows:
+  * Prepends `HTTP_`
+  * Replaces all "-" with "_"
+  * Makes the array key UPPERCASE 
+* PHP examples: https://github.com/dbierer/classic_php_examples
+* Regex Examples: https://github.com/dbierer/classic_php_examples/tree/master/regex
 
 ## Github Account
 * Creating a repository for class:
@@ -82,7 +91,13 @@ grep -rn DIR_PATH -e " extends "
   * E.g. for MySQL: https://www.php.net/manual/en/ref.pdo-mysql.connection.php
   * E.g. for DB2  : https://www.php.net/manual/en/ref.pdo-ibm.connection.php
 
+## Web Communications
+* ETag example: https://github.com/dbierer/classic_php_examples/blob/master/web/etag.php
+
 ## Errata
 * http://localhost:8888/#/4/19: "Currency Value Object" :
   *  `$this->amount = $symbol;`
   * s/be  `$this->symbol = $symbol;`
+* http://localhost:8888/#/5/7 : "ETag Header Example" :
+  * Added `session_start();` in the beginning
+  * Removed spaces from `header(" ETag : $etag ");`

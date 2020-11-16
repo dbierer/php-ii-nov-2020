@@ -1,5 +1,5 @@
 <?php
-/*
+
 try {
 	// Get the connection instance
     $pdo = new PDO('mysql:host=localhost;dbname=phpcourse','vagrant','vagrant');
@@ -20,7 +20,7 @@ try {
 }
 
 
-*/
+
 //With Binding
 
 try {
