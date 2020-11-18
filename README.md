@@ -1,6 +1,16 @@
 # php-ii-nov-2020
 
 ## Homework
+* For Wed 18 Nov 2020
+  * Lab: Composer
+    * For Laravel: https://laravel.com/docs/8.x/installation
+	  * Example: `composer create-project --prefer-dist laravel/laravel blog`
+	  * When finished: `artisan serve` (from the project root)
+	  * From browser: `http://localhost:8000/`
+    * For Symfony: https://symfony.com/doc/current/setup.html
+      * Example: `composer create-project symfony/website-skeleton project_name`
+      * When finished: `symfony server:start` (from the project root)
+	  * From browser: `http://localhost:8000/`
 * For Tue 17 Nov 2020
   * Lab: Validate an Email Address
 * For Sun 15 Nov 2020
@@ -27,6 +37,10 @@
 * Get example of populating database from geonames.org project using prepared statements
   * `pdo_prepare_example.php`
 * Debug code on slide for e-tag example
+  * Done (see below)
+* Find an example of the "official" RFC email regex
+* Get example of building a phar file + packaging for Composer
+
 ## Class Notes
 * https://w3techs.com/
 * https://packagist.org/
