@@ -40,6 +40,7 @@
   * Done (see below)
 * Find an example of the "official" RFC email regex
 * Get example of building a phar file + packaging for Composer
+* Update WSDL/SOAP example: https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php?wsdl
 
 ## Class Notes
 * https://w3techs.com/
@@ -55,7 +56,20 @@
   * Makes the array key UPPERCASE 
 * PHP examples: https://github.com/dbierer/classic_php_examples
 * Regex Examples: https://github.com/dbierer/classic_php_examples/tree/master/regex
+* Example of a WSDL: https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php?wsdl
+* Example of SOAP client: https://github.com/dbierer/classic_php_examples/blob/master/web/soap_client.php
+* Where to find what's coming up: https://wiki.php.net/rfc
+* Quick overview of updates to PHP 8: https://github.com/php/php-src/blob/php-8.0.0RC4/UPGRADING
 
+## REST
+* Building a REST API:
+  * Micro Frameworks designed for API development:
+    * https://www.slimframework.com/
+    * https://docs.mezzio.dev/ (formerly Zend Expressive)
+* Generating REST requests
+  * You can use the PHP CURL extension (https://php.net/curl)
+  * Also use streams (e.g. `file_get_contents()` or `fopen()`)
+* Prototype Stream Class: https://www.php.net/manual/en/class.streamwrapper.php
 ## Github Account
 * Creating a repository for class:
   * Login to your account
